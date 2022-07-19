@@ -151,7 +151,7 @@ assign [class="Spotify"] $ws1
 assign [class="Google-chrome"] $ws2
 assign [class="discord"] $ws3
 assign [class="jetbrains-pycharm-ce"] $ws4
-
+assign [class="GitKraken"] $ws4
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -228,3 +228,4 @@ exec_always xrandr --output DP-1 --off --output HDMI-1 --mode 1920x1080 --pos 19
 #Custom Binds
 bindsym $mod+shift+x exec i3lock
 bindsym $mod+shift+n exec nautilus 
+bindsym $mod+shift+g exec gnome-control-center
